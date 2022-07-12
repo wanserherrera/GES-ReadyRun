@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="header_leatter">30dp</dimen>
+    <dimen name="bottom_navigation_icon_size" tools:override="true">30dp</dimen>
+    <dimen name="text_size_main">24sp</dimen>
+    <dimen name="text_size_units_main">14sp</dimen>
+    <dimen name="text_size_units_calendar">12sp</dimen>
+    <dimen name="text_size_title_calendar">12sp</dimen>
+    <dimen name="text_size_metrics_calendar">20sp</dimen>
+    <dimen name="text_size_auth">20sp</dimen>
+    <dimen name="text_size_auth_btn">14sp</dimen>
+    <dimen name="text_size_auth_btn_google">16sp</dimen>
+    <dimen name="image_auth_space">70dp</dimen>
+    <dimen name="auth_btn_google">60sp</dimen>
+    <dimen name="auth_btn_img_google">30sp</dimen>
+    <dimen name="text_size_auth_btn_forgot_pass">12sp</dimen>
+    <dimen name="text_size_item_title">20sp</dimen>
+    <dimen name="text_size_conf_title">15sp</dimen>
+    <dimen name="text_size_conf_description">15sp</dimen>
+    <dimen name="text_size_stop">12sp</dimen>
+    <dimen name="margin_top_layout">10dp</dimen>
+    <dimen name="margin_side_layout">20dp</dimen>
+    <dimen name="margin_bottom_layout">30dp</dimen>
+    <dimen name="buttons_conf">60dp</dimen>
+
+
+</resources>

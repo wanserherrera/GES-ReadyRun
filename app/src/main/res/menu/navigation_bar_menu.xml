@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_map"
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="@string/menu1"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_historic"
+        android:title="@string/menu2"
+        android:icon="@drawable/ic_circuit"
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_empty"
+        android:title=""
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_calendar"
+        android:title="@string/menu3"
+        android:icon="@drawable/ic_calendar"
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/menu4"
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="true"
+        app:showAsAction="always" />
+
+</menu>

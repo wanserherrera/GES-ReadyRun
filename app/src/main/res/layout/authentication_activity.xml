@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="508dp"
+        android:background="#CAE6F3" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/txt_mail"
+        style="@style/EditTextsAuthentication"
+        android:autofillHints=""
+        android:hint="@string/auth_email"
+        android:inputType="textWebEmailAddress" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/txt_pass"
+        style="@style/EditTextsAuthentication"
+        android:autofillHints=""
+        android:hint="@string/auth_pass"
+        android:inputType="textPassword" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_auth_forgot_pass"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_marginLeft="@dimen/margin_side_layout"
+        android:layout_marginRight="@dimen/margin_side_layout"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/auth_forgot_pass"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size_auth_btn_forgot_pass" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_side_layout"
+        android:layout_marginRight="@dimen/margin_side_layout"
+        android:orientation="horizontal">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_auth_acc"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/auth_acc"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_size_auth_btn" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/txt_info_auth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_side_layout"
+        android:layout_marginRight="@dimen/margin_side_layout"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#121111"
+        android:textSize="@dimen/text_size_auth" />
+
+</LinearLayout>

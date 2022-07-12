@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D5D5D2</color>
+<!--    <color name="colorPrimary">#D5D5D2</color>-->
+    <color name="colorPrimaryDark">#60605E</color>
+    <color name="colorBackgroundText">#D5D5D2</color>
+    <color name="colorText">#000000</color>
+    <color name="colorTextItemTitle">#60605E</color>
+    <color name="colorAccent">#368C97</color>
+    <color name="colorAccentLight">#75FFFF00</color>
+    <color name="colorAccentBackground">#D5D5D2</color>
+    <color name="colorIconMenu">#FFFFFF</color>
+    <color name="colorBackgroundCalendarMetrics">#FFFFFF</color>
+    <color name="colorAuthBackground">#FFFFFF</color>
+    <color name="colorAlertDialogTitle">#FFFFFF</color>
+    <color name="colorAlertDialogButtons">#FFFF00</color>
+    <color name="colorAlertDialogBackground">#60605E</color>
+
+</resources>

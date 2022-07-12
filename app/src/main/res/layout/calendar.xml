@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_side_layout"
+            android:layout_marginRight="@dimen/margin_side_layout"
+            android:layout_weight="1"
+            android:verticalScrollbarPosition="defaultPosition"
+            app:mcv_dateTextAppearance="@color/colorAccentBackground"
+            app:mcv_firstDayOfWeek="monday"
+            app:mcv_allowClickDaysOutsideCurrentMonth="true"
+            app:mcv_weekDayTextAppearance="@style/TextCalendar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_side_layout"
+            android:layout_marginEnd="@dimen/margin_side_layout"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_cld_title_day"
+                    style="@style/TextViewsCalendarTitle"
+                    android:text="@string/cld_day_title" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_cld_day_dist"
+                        style="@style/TextViewsCalendar"
+                        android:layout_weight="1"
+                        android:text="@string/zero_value" />
+
+                    <TextView
+                        android:id="@+id/txt_kms2"
+                        style="@style/UnitsCalendar"
+                        android:text="@string/km" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_cld_day_prom"
+                        style="@style/TextViewsCalendar"
+                        android:layout_weight="1"
+                        android:text="@string/zero_value" />
+
+                    <TextView
+                        android:id="@+id/txt_kmsh2"
+                        style="@style/UnitsCalendar"
+                        android:text="@string/km_h" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_cld_title_week"
+                    style="@style/TextViewsCalendarTitle"
+                    android:text="@string/cld_week_title" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_cld_week_dist"
+                        style="@style/TextViewsCalendar"
+                        android:layout_weight="1"
+                        android:text="@string/zero_value" />
+
+                    <TextView
+                        android:id="@+id/txt_kms3"
+                        style="@style/UnitsCalendar"
+                        android:text="@string/km" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_cld_week_prom"
+                        style="@style/TextViewsCalendar"
+                        android:layout_weight="1"
+                        android:text="@string/zero_value" />
+
+                    <TextView
+                        android:id="@+id/txt_kmsh3"
+                        style="@style/UnitsCalendar"
+                        android:text="@string/km_h" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12sp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_side_layout"
+            android:layout_marginEnd="@dimen/margin_side_layout"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_cld_title_month"
+                    style="@style/TextViewsCalendarTitle"
+                    android:text="@string/cld_month_title" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_cld_month_dist"
+                        style="@style/TextViewsCalendar"
+                        android:layout_weight="1"
+                        android:text="@string/zero_value" />
+
+                    <TextView
+                        android:id="@+id/txt_kms4"
+                        style="@style/UnitsCalendar"
+                        android:text="@string/km" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_cld_month_prom"
+                        style="@style/TextViewsCalendar"
+                        android:layout_weight="1"
+                        android:text="@string/zero_value" />
+
+                    <TextView
+                        android:id="@+id/txt_kmsh4"
+                        style="@style/UnitsCalendar"
+                        android:text="@string/km_h" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_cld_title_total"
+                    style="@style/TextViewsCalendarTitle"
+                    android:text="@string/cld_total_title" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_cld_total_dist"
+                        style="@style/TextViewsCalendar"
+                        android:layout_weight="1"
+                        android:text="@string/zero_value" />
+
+                    <TextView
+                        android:id="@+id/txt_kms1"
+                        style="@style/UnitsCalendar"
+                        android:text="@string/km" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_cld_total_prom"
+                        style="@style/TextViewsCalendar"
+                        android:layout_weight="1"
+                        android:text="@string/zero_value" />
+
+                    <TextView
+                        android:id="@+id/txt_kmsh1"
+                        style="@style/UnitsCalendar"
+                        android:text="@string/km_h" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</ScrollView>

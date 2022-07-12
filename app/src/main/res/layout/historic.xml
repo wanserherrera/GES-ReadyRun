@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/margin_top_layout"
+    android:layout_marginBottom="@dimen/margin_bottom_layout"
+    android:layout_marginLeft="@dimen/margin_side_layout"
+    android:layout_marginRight="@dimen/margin_side_layout">
+
+    <ListView
+        android:id="@+id/list_view_historic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fastScrollEnabled="true"
+        android:transcriptMode="alwaysScroll" />
+
+</LinearLayout>

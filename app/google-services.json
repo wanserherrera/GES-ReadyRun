@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "553682249068",
+    "firebase_url": "https://velostracker.firebaseio.com",
+    "project_id": "velostracker",
+    "storage_bucket": "velostracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553682249068:android:2f3e5bbb588cf1f5463f49",
+        "android_client_info": {
+          "package_name": "com.tonulab.velostracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553682249068-jt51u8746n5788kl2pb9r6hejh65dl4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwtOQ3_gOGt5Ou2VtFDa_RQcJWZFEMhnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553682249068-jt51u8746n5788kl2pb9r6hejh65dl4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

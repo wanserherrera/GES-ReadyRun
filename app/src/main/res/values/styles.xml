@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/fondo</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <style name="TextViewsMain">
+        <item name="android:background">@drawable/rounded_corner_metrics</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size_main</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="UnitsMain">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size_units_main</item>
+        <item name="android:textAlignment">center</item>
+<!--        <item name="android:background">@color/colorAccent</item>-->
+        <item name="android:layout_gravity">top|center</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextViewsItemTitle">
+        <item name="android:textColor">@color/colorTextItemTitle</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextViewsItem">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="UnitsCalendar">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size_units_calendar</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">bottom|right</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+    </style>
+
+    <style name="TextViewsCalendarTitle">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@color/colorText</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/text_size_title_calendar</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TextViewsCalendar">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:background">@color/colorBackgroundCalendarMetrics</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_metrics_calendar</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="TextCalendar">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="EditTextsAuthentication">
+        <item name="android:textSize">@dimen/text_size_auth</item>
+        <item name="android:background">@color/colorAuthBackground</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_side_layout</item>
+        <item name="android:layout_marginRight">@dimen/margin_side_layout</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+
+    <style name="ConfigurationItemsTitle">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size_conf_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="ConfigurationItemsDescription">
+        <item name="android:textColor">@color/colorTextItemTitle</item>
+        <item name="android:textSize">@dimen/text_size_conf_description</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAlertDialogButtons</item>
+        <item name="android:textColorPrimary">@color/colorAlertDialogTitle</item>
+        <item name="android:background">@color/colorAlertDialogBackground</item>
+    </style>
+
+</resources>
